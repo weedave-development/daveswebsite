@@ -1,8 +1,40 @@
-title: Medical Guide
-description: Wee Dave
-theme: just-the-docs
-
+title: Wee Daves Medical
+description: A guidebook for medical rp
+remote_theme: just-the-docs/just-the-docs
 url: https://weedave-development.github.io/daveswebsite
 
-aux_links: # remove if you don't want this link to appear on your pages
-  Template Repository: https://github.com/weedave-development/daveswebsite
+aux_links:
+  Guide Repository: https://weedave-development.github.io/daveswebsite
+
+aux_links_new_tab: true
+
+plugins:
+  - jekyll-default-layout
+
+color_scheme: dark
+
+nav_external_links_new_tab: true
+heading_anchors: true
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+
+
+ga_tracking: G-409CW9NX9F
+
+exclude: ["LICENSE"]

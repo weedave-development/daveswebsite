@@ -1,35 +1,86 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# The Medical Roleplayer's Guidebook
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+This guide is designed to help beginner medical roleplayers with zero knowledge learn about medical roleplay and hone in their skill to create an amazing experience for both the patient and themselves in games such as Grand Theft Auto 5 (FiveM) and others. 
 
-More specifically, the created site:
+The goal of this guide is to provide a simple framework of how to treat different kinds of injuries and to help build confidence for those who may have never played as a medical staffer. This guide is server agnostic and designed to help medical roleplayers, not just on a specific server.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+As this is roleplay, always remember to **suspend your disbelief (become more gullible)** and **have fun** with the situations before you. You might go from treating a patient with a simple scratch, to trying to fix a robot with a disassembled toaster and stool leg, to becoming a world-class veternarian treating a dinosaur that has been previously extinct all in the same day. Injuries, Diseases, and situations that happen in roleplay are sometimes impossible, impractical, or just don't make sense. Roll with it and enjoy the story. 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## Modern Medicine
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+<table>
+<tbody>
+<tr><td>
+<a href="/docs/Modern/Minor-Issues.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/bandaid.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Burns.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/fire.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Cardiac.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/heart.jpg"></figure></a>
+</td></tr>
+<tr><td>
+<a href="/docs/Modern/Drowning.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/drowning.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Gastro.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/gastro.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/GSW.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/gsw.jpg"></figure></a>
+</td></tr>
+<tr><td>
+<a href="/docs/Modern/Imaging.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/imaging.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Lacerations.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/stab.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Medication.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/pills.jpg"></figure></a>
+</td></tr>
+<tr><td>
+<a href="/docs/Modern/Mental/"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/mental.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Neurological.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/neuro.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Orthopedic.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/skeletal.jpg"></figure></a>
+</td></tr>
+<tr><td>
+<a href="/docs/Modern/Paranormal.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/paranormal.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Physicals.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/hospital.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Poison.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/poison.jpg"></figure></a>
+</td></tr>
+<tr><td>
+<a href="/docs/Modern/Privacy.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/privacy.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Radio.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/radio.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Reports.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/reports.jpg"></figure></a>
+</td></tr>
+<tr><td>
+<a href="/docs/Modern/Respiratory.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/lungs.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Training.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/training.jpg"></figure></a>
+</td><td>
+<a href="/docs/Modern/Triage.html"><figure class="image"> <img src="https://raw.githubusercontent.com/dangitrp/medical-rp-guide/main/assets/images/triage.jpg"></figure></a>
+</td></tr>
+</tbody>
+</table>
 
-To get started with creating a site, simply:
+## Contributions
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+For those who would like to make contribuitons to this guide, the plan with this is to keep the documents at an extremely basic level. Don't stress too much about a specific name of a medication. Simply stating "Push an antibiotic through an IV" or "Administer a local anasthetic" or "Apply antibiotic ointment" is perfectly acceptable.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+### Expectations for Documentation
+- Follow the KISS Method when writing documentation (Keep it simple, stupid!)
+  - Remember our primary audience is people who are new to medical roleplay and may have zero knowledge of things
+  - Keep procedures basic and words simple
+  - Make sure you introduce the full description when using an acronym
+- Try to limit the amount of clicks/scrolling needed to get to the important information
+  - Staffers may be using this guide while they are trying to roleplay
+- Write the basic steps of the procedure
+- If you give a medication, describe drug class rather than a specific name (unless the injury calls for a very specific medication)
+  - "Push an antibiotic" instead of "Push Amoxicillin"
 
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+For more advanced topics, feel free to include information under Modern Medical that you think may be beneficial for a medical roleplayer to know.
